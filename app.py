@@ -12,7 +12,7 @@ def index_get():
     # print('')
     data = {
         'status' : 'OK',
-        'version' : 'master-0.0.3',
+        'version' : 'develop-0.0.3',
         'environment' : ENV_MODE
     }
     return jsonify(data)
